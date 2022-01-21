@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/Calculo_Inversion/static/css/main.d0595f34.css",
+    "main.js": "/Calculo_Inversion/static/js/main.94ccf7c8.js",
+    "index.html": "/Calculo_Inversion/index.html",
+    "main.d0595f34.css.map": "/Calculo_Inversion/static/css/main.d0595f34.css.map",
+    "main.94ccf7c8.js.map": "/Calculo_Inversion/static/js/main.94ccf7c8.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.d0595f34.css",
+    "static/js/main.94ccf7c8.js"
+  ]
+}
