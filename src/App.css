@@ -1,38 +1,103 @@
-.App {
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,500;1,600;1,700;1,900&display=swap");
+body {
+  font-family: "Poppins";
+}
+* {
+  padding: 0;
+  font-family: "Poppins";
+  margin: 0;
+  box-sizing: border-box;
+}
+
+section {
+  padding: 0 15px;
+  min-height: 100vh;
+}
+.title-header h1 {
+  text-align: center;
+}
+header {
+  padding: 15px 0px;
+}
+.form-section {
+  margin: 0 auto;
+  max-width: 90%;
+  padding: 0 15px;
+}
+
+.inputs-section {
+  padding: 10px 0;
+  margin: 5px 0;
+}
+.inputs-section input {
+  outline: none;
+  border: none;
+
+  border-bottom: 1px solid black;
+  padding: 4px 20px;
+  background-color: rgba(73, 71, 71, 0.39);
+}
+.inputs-section label {
+  padding-right: 30px;
+}
+.button-section button {
+  padding: 8px 15px;
+  background-color: #208d84a9;
+  outline: none;
+  border-style: none;
+  border: 1.8px solid rgb(0, 255, 13);
+  border-radius: 5px;
+  cursor: pointer;
+}
+.button-section {
+  margin-top: 30px;
+}
+.button-section button:hover {
+  background-color: #16d8c8a9;
+}
+footer {
+  padding: 20px 15px;
+  background-color: cyan;
+  border-top-right-radius: 50px;
+  border-top: 2px solid green;
+}
+.button-section,
+.inputs-section {
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+tr,
+th {
+  padding: 2px 25px;
+  text-align: left;
+}
+.section-result {
+  margin-top: 30px;
+  padding: 2px;
+}
+.section-result h2 {
+  text-align: center;
+}
+.content-result {
+  margin: 0 auto;
+  text-align: center;
+}
+table {
+  margin: 0 auto;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+@media screen and (max-width: 500px) {
+  * {
+    font-size: 12px;
   }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+  tr,
+  th {
+    padding: 2px 6px;
+    text-align: left;
   }
-  to {
-    transform: rotate(360deg);
+  table,
+  .content-result {
+    max-width: 100%;
+    overflow-x: scroll;
   }
 }
